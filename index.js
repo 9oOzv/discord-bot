@@ -2,7 +2,7 @@ const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { Client, Intents } = require('discord.js');
 
-const config = require('config.json');
+const config = require('./config.json');
 
 const commands = [{
   name: 'ping',
@@ -36,7 +36,7 @@ async function start() {
       await interaction.reply('Pong!');
     }
   });
-  client.login('token');
+  client.login(config.token);
 }
 
 

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mpiiroinen/discord-bot/issues"
   },
-  "homepage": "https://github.com/mpiiroinen/discord-bot#readme"
+  "homepage": "https://github.com/mpiiroinen/discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
 }
